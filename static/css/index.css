@@ -751,3 +751,38 @@ a:focus {
 
 
 
+.results-table {
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.results-table th,
+.results-table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.45rem 0.55rem;
+}
+
+.results-table th:first-child,
+.results-table td:first-child,
+.results-table th:nth-child(2),
+.results-table td:nth-child(2) {
+  text-align: left;
+}
+
+.results-table thead th {
+  font-weight: 700;
+}
+
+.results-table tbody tr td:first-child {
+  background-color: #f5f5f5;
+}
+
+.results-table td:first-child {
+  white-space: nowrap;
+}
+
+.results-table .setting-row td:first-child {
+  background-color: #f5f5f5;
+  font-weight: 600;
+}
