@@ -778,11 +778,36 @@ a:focus {
   background-color: #f5f5f5;
 }
 
-.results-table td:first-child {
+/* .results-table td:first-child {
   white-space: nowrap;
-}
+} */
 
 .results-table .setting-row td:first-child {
   background-color: #f5f5f5;
   font-weight: 600;
+}
+
+
+.results-table {
+  width: 100%;
+  table-layout: fixed;
+  font-size: 0.72rem;
+}
+
+.results-table th,
+.results-table td {
+  padding: 0.35rem 0.3rem;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.results-table th:first-child,
+.results-table td:first-child {
+  width: 13%;
+}
+
+.results-table th:nth-child(2),
+.results-table td:nth-child(2) {
+  width: 10%;
 }
